@@ -50,13 +50,11 @@ inquirer
       type: 'input',
       name: 'description',
       message: 'Write a description for your project.'
-    //   choices: ['HTML', 'CSS', 'JavaScript', 'MySQL']
     },
     {
       type: 'input',
       name: 'install',
       message: 'Describe the installation process.'
-    //   choices: ['email', 'phone', 'telekinesis']
     },
     {
     type: 'input',
