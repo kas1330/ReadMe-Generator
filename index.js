@@ -18,6 +18,8 @@ THEN I am taken to the corresponding section of the README*/
 var inquirer = require('inquirer');
 
 var fs = require('fs');
+var util = require('util');
+const generateMarkdown = require('./generateMarkdown');
 
 // // array of questions for user
 // const questions = [
@@ -79,10 +81,12 @@ inquirer
     // fs.writeFile(filename, JSON.stringify(data, null, '\t'), function (err) {
     //   if (err) {
     //     return console.log(err);
-    //   }
+    //   
 
     //   console.log('Success!');
     // });
     console.log('Here is what you entered: ', data.title);
+    generateMarkdown(data);
+    generateMarkdown();
 
   });
