@@ -26,8 +26,7 @@ const generateMarkdown = require('./generateMarkdown');
 
 
 // // function to write README file
-// function writeToFile(fileName, data) {
-// }
+
 
 // // function to initialize program
 // function init() {
@@ -36,6 +35,7 @@ const generateMarkdown = require('./generateMarkdown');
 
 // // function call to initialize program
 // init();
+//Array of questions for user
       const questions = [
         {
           type: 'input',
@@ -72,20 +72,22 @@ const generateMarkdown = require('./generateMarkdown');
 
 inquirer.prompt(questions)
  
-
-
   .then(function (data) {
     // var filename = data.name.toLowerCase().split(' ').join('') + '.json';
 
-    // fs.writeFile(filename, JSON.stringify(data, null, '\t'), function (err) {
-    //   if (err) {
-    //     return console.log(err);
-    //   
 
-    //   console.log('Success!');
-    // });
     console.log('Here is what you entered: ', data.title);
     generateMarkdown(data);
     generateMarkdown();
 
   });
+
+  //Writes the file
+  function writeToFile(fileName, data) {
+      fs.writeFile(fileName, data, function(err) {
+          if(err){
+            return console.log('There was an error when trying to write the file.');
+          }
+          console.log('File successfully written.');
+      } )
+}
