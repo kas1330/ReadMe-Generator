@@ -38,6 +38,9 @@ var fs = require('fs');
 
 inquirer
   .prompt([
+      // const questions = [
+
+// ];
     {
       type: 'input',
       name: 'title',
@@ -70,6 +73,7 @@ inquirer
     name: 'tests',
     message: 'Explain your testing procedures.'
     }
+    
   ])
   .then(function (data) {
     // var filename = data.name.toLowerCase().split(' ').join('') + '.json';
@@ -82,5 +86,5 @@ inquirer
     //   console.log('Success!');
     // });
     console.log('Here is what you entered: ', data.title);
-    
+
   });
