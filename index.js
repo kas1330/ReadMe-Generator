@@ -23,9 +23,7 @@ var axi = require('axios');
 const generateMarkdown = require('./generateMarkdown');
 
 // // array of questions for user
-// const questions = [
 
-// ];
 
 // // function to write README file
 // function writeToFile(fileName, data) {
@@ -38,44 +36,44 @@ const generateMarkdown = require('./generateMarkdown');
 
 // // function call to initialize program
 // init();
+      const questions = [
+        {
+          type: 'input',
+          name: 'title',
+          message: 'What is the title of your project?'
+        },
+        {
+          type: 'input',
+          name: 'description',
+          message: 'Write a description for your project.'
+        },
+        {
+          type: 'input',
+          name: 'install',
+          message: 'Describe the installation process.'
+        },
+        {
+        type: 'input',
+        name: 'use',
+        message: 'How is your project used?'
+        },
+        {
+        type: 'input',
+        name: 'contribute',
+        message: 'How can someone contribute to your project?'
+        },
+        {
+        type: 'input',
+        name: 'tests',
+        message: 'Explain your testing procedures.'
+        }
 
-inquirer
-  .prompt([
-      // const questions = [
+];
 
-// ];
-    {
-      type: 'input',
-      name: 'title',
-      message: 'What is the title of your project?'
-    },
-    {
-      type: 'input',
-      name: 'description',
-      message: 'Write a description for your project.'
-    },
-    {
-      type: 'input',
-      name: 'install',
-      message: 'Describe the installation process.'
-    },
-    {
-    type: 'input',
-    name: 'use',
-    message: 'How is your project used?'
-    },
-    {
-    type: 'input',
-    name: 'contribute',
-    message: 'How can someone contribute to your project?'
-    },
-    {
-    type: 'input',
-    name: 'tests',
-    message: 'Explain your testing procedures.'
-    }
-    
-  ])
+inquirer.prompt(questions)
+ 
+
+
   .then(function (data) {
     // var filename = data.name.toLowerCase().split(' ').join('') + '.json';
 
