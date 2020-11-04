@@ -1,7 +1,9 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
+  console.log(data);
+  const userData= data;
   return `
-  # ${data.title}/n
+  # ${userData.title}/n
     ##Table of Contents
     *Description
     *Installation

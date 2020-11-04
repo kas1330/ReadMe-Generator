@@ -22,20 +22,7 @@ var util = require('util');
 var axi = require('axios');
 const generateMarkdown = require('./generateMarkdown');
 
-// // array of questions for user
 
-
-// // function to write README file
-
-
-// // function to initialize program
-// function init() {
-
-// }
-
-// // function call to initialize program
-// init();
-//Array of questions for user
       const questions = [
         {
           type: 'input',
@@ -72,18 +59,19 @@ const generateMarkdown = require('./generateMarkdown');
 
 inquirer.prompt(questions)
  
-  .then(function (data) {
-    // var filename = data.name.toLowerCase().split(' ').join('') + '.json';
+.then(function (data) {
+  // var filename = data.name.toLowerCase().split(' ').join('') + '.json';
 
 
-    console.log('Here is what you entered: ', data.title);
-    generateMarkdown(data);
-    generateMarkdown();
+  console.log('Here is what you entered: ', data.title);
+  const markdownData= generateMarkdown(data);
+  console.log('Its working', working);
+  writeToFile('READMEdemo.MD', markdownData);
 
-  });
+});
 
   //Writes the file
-  function writeToFile(fileName, data) {
+function writeToFile(fileName, data) {
       fs.writeFile(fileName, data, function(err) {
           if(err){
             return console.log('There was an error when trying to write the file.');
@@ -91,3 +79,8 @@ inquirer.prompt(questions)
           console.log('File successfully written.');
       } )
 }
+
+// function init() {
+
+//     // const generateMD = generateMarkdown(data);
+// }
