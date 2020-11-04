@@ -3,7 +3,7 @@
   
 ## Description
   
- A CLI app that will take user input and create a readMe file based on it.
+ A quick readme generator.
   
 ## Table of Contents
 
@@ -27,11 +27,11 @@
 
 ## Installation
 
- Use npm i to install inquirer.
+ npm i
 
 ## Usage
 
- Use node.js to run the application. Use npm i to install inquirer. Answer the questions asked.
+ To generate readMes
 
 ## License
 
@@ -39,17 +39,17 @@
 
 ## Contribute
 
- Submit a pull request.
+ pull request
 
 ## Tests
 
- Not applicable.
+ n/a
 
 ## Questions
 
  kas1330
 
- k.sexton804@gmail.com
+ example@gmail.com
 
 
 

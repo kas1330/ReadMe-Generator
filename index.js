@@ -4,8 +4,8 @@
 var inquirer = require('inquirer');
 
 var fs = require('fs');
-var util = require('util');
-var axi = require('axios');
+// var util = require('util');
+// var axi = require('axios');
 const generateMarkdown = require('./generateMarkdown');
 const Choices = require('inquirer/lib/objects/choices');
 
@@ -69,7 +69,7 @@ inquirer.prompt(questions)
   console.log('Here is what you entered: ', data.title);
   const markdownData= generateMarkdown(data);
 //   console.log('Its working', working);
-  writeToFile('README.md', markdownData);
+  writeToFile('READMEdemo.md', markdownData);
 
 });
 
