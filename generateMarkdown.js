@@ -3,9 +3,11 @@ function generateMarkdown(data) {
   console.log(data);
   const userData= data;
   return `
-  # ${userData.title}/n
-    ##Table of Contents
-    *Description
+  # ${userData.title} 
+  \n## Description
+  \n ${userData.description}
+  \n## Table of Contents
+\n\n- [Installation](##Installation)
     *Installation
     *Use
     *Contributions

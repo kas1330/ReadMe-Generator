@@ -65,13 +65,14 @@ inquirer.prompt(questions)
 
   console.log('Here is what you entered: ', data.title);
   const markdownData= generateMarkdown(data);
-  console.log('Its working', working);
-  writeToFile('READMEdemo.MD', markdownData);
+//   console.log('Its working', working);
+  writeToFile('READMEdemo.md', markdownData);
 
 });
 
   //Writes the file
 function writeToFile(fileName, data) {
+    console.log('in writefile');
       fs.writeFile(fileName, data, function(err) {
           if(err){
             return console.log('There was an error when trying to write the file.');
