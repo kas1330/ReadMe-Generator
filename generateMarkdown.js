@@ -17,8 +17,20 @@ function generateMarkdown(data) {
 \n ${userData.install}
 \n## Usage
 \n ${userData.use}
-\n## Usage
-\n ${userData.use}
+\n## License
+\n ${userData.license}
+\n## Contribute
+\n ${userData.contribute}
+\n## Tests
+\n ${userData.tests}
+\n## Questions
+\n ${userData.userName}
+\n ${userData.email}
+
+
+
+
+
 
 
 
