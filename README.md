@@ -25,7 +25,7 @@
 
 - [Questions](##Questions)
 
-- [View Demonstration](##View Demonstration)
+- [Demonstration](##Demonstration)
 
 ## Installation
 
@@ -53,7 +53,7 @@
 
  k.sexton804@gmail.com
  
-## View Demonstration
+## Demonstration
  https://drive.google.com/file/d/1ZlPrUAkT3my2ELAlA1a4iIypS1Qf1KYS/view
 
 
