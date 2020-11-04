@@ -8,10 +8,21 @@ function generateMarkdown(data) {
   \n ${userData.description}
   \n## Table of Contents
 \n\n- [Installation](##Installation)
-    *Installation
-    *Use
-    *Contributions
-    *Testing
+\n\n- [Usage](##Usage)
+\n\n- [License](##License)
+\n\n- [Contributions](##Contributions)
+\n\n- [Testing](##Testing)
+\n\n- [Questions](##Questions)
+\n## Installation
+\n ${userData.install}
+\n## Usage
+\n ${userData.use}
+\n## Usage
+\n ${userData.use}
+
+
+
+
 `;
 
 

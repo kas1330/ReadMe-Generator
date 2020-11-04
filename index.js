@@ -21,6 +21,7 @@ var fs = require('fs');
 var util = require('util');
 var axi = require('axios');
 const generateMarkdown = require('./generateMarkdown');
+const Choices = require('inquirer/lib/objects/choices');
 
 
       const questions = [
@@ -44,6 +45,12 @@ const generateMarkdown = require('./generateMarkdown');
         name: 'use',
         message: 'How is your project used?'
         },
+        {
+            type: 'list',
+            name: 'license',
+            message: 'License?',
+            choices: ['None','Apache License 2.0', 'Boost Software License 1.0',]
+        }
         {
         type: 'input',
         name: 'contribute',
