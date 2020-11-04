@@ -25,6 +25,8 @@
 
 - [Questions](##Questions)
 
+- [View Demonstration](##View Demonstration)
+
 ## Installation
 
  Use npm i to install inquirer.
@@ -37,11 +39,11 @@
 
  None
 
-## Contribute
+## Contributions
 
  Submit a pull request.
 
-## Tests
+## Testing
 
  Not applicable.
 
@@ -51,7 +53,7 @@
 
  k.sexton804@gmail.com
  
-## View demonstration
+## View Demonstration
  https://drive.google.com/file/d/1ZlPrUAkT3my2ELAlA1a4iIypS1Qf1KYS/view
 
 
