@@ -46,11 +46,11 @@ const Choices = require('inquirer/lib/objects/choices');
         message: 'How is your project used?'
         },
         {
-            type: 'list',
-            name: 'license',
-            message: 'License?',
-            choices: ['None','Apache License 2.0', 'Boost Software License 1.0',]
-        }
+        type: 'list',
+        name: 'license',
+        message: 'License?',
+        choices: ['None','Apache License 2.0', 'Boost Software License 1.0', "BSD 2-Clause 'Simplified' License", "BSD 3-Clause 'New' or 'Revised' License", 'Creative Commons Zero v1.0 Universal', 'Eclipse Public License 2.0', 'GNU Affero General Public License v3.0', 'GNU General Public License v2.0', 'GNU General Public License v3.0', 'GNU Lesser General Public License v2.1', 'MIT License', 'Mozilla Public License 2.0', 'The Unlicense' ]
+        },
         {
         type: 'input',
         name: 'contribute',
@@ -60,6 +60,16 @@ const Choices = require('inquirer/lib/objects/choices');
         type: 'input',
         name: 'tests',
         message: 'Explain your testing procedures.'
+        },
+        {
+        type: 'input',
+        name: 'userName',
+        message: "What's your GitHub user name?"
+        }
+        {
+        type: 'input',
+        name: 'email',
+        message: "What's your email address?"
         }
 
 ];
