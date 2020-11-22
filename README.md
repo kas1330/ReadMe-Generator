@@ -11,19 +11,19 @@
 - [Installation](https://github.com/kas1330/ReadMe-Generator#installation)
 
 
-- [Usage](##Usage)
+- [Usage](https://github.com/kas1330/ReadMe-Generator#usage)
 
 
-- [License](##License)
+- [License](https://github.com/kas1330/ReadMe-Generator#license)
 
 
-- [Contributions](##Contributions)
+- [Contributions](https://github.com/kas1330/ReadMe-Generator#contributions)
 
 
-- [Testing](##Testing)
+- [Testing](https://github.com/kas1330/ReadMe-Generator#testing)
 
 
-- [Questions](##Questions)
+- [Questions](https://github.com/kas1330/ReadMe-Generator#questions)
 
 - [Demonstration](https://github.com/kas1330/ReadMe-Generator#demonstration)
 
