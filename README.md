@@ -8,7 +8,7 @@
 ## Table of Contents
 
 
-- [Installation](##Installation)
+- [Installation](https://github.com/kas1330/ReadMe-Generator#installation)
 
 
 - [Usage](##Usage)
@@ -25,7 +25,7 @@
 
 - [Questions](##Questions)
 
-- [Demonstration](##Demonstration)
+- [Demonstration](https://github.com/kas1330/ReadMe-Generator#demonstration)
 
 ## Installation
 
